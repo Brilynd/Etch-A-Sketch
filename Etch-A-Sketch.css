@@ -1,0 +1,95 @@
+html{
+    background-image: url(https://i.pinimg.com/originals/33/d0/e1/33d0e10ff8a6a3014e54d5da3f8e91f8.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+.display {
+    position: absolute;
+    right:20%;
+    background: black;
+    border: 1px solid black;
+  }
+  .grid {
+
+    display: grid;
+  }
+  .cell {
+     /* center the cell content */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial;
+    font-weight: bold;
+    background: white;
+  }
+
+  .cell:hover{
+    background-color: grey;
+}
+
+
+  h1{
+      text-align: center;
+      font-size: 64px;
+  }
+
+  .artSettings{
+    
+    border-radius: 25px;
+    padding: 2%;
+    text-align: center;
+    background-color:rgba(77, 205, 255, 0.096);
+    box-shadow: 5px 5px 20px;
+    max-width: 15%;
+    height: 100%;
+    margin-top: 3%;
+    margin:20px;
+}
+
+.artSettings button{
+    text-align: center;
+    color:white;
+    padding:10px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.artSettings button:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+li{
+    list-style: none;
+}
+ul{
+    padding:0;
+}
+
+
+
+#colorSelect{
+    padding-top: px;
+    text-align: center;
+    color:white;
+    padding:10px 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 12px;
+    position: relative;
+}
+
+
